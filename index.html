@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DASHBOARD ADMIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+               HALAMAN ADMIN
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#karyawan"><i class="fas fa-user me-1"></i>Karyawan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jabatan"><i class="fas fa-briefcase me-1"></i>Jabatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#divisi"><i class="fas fa-sitemap me-1"></i>Divisi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <!-- DATA KARYAWAN -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>
+                    Sistem Manajemen Keryawan PT.IndoIbrahim
+                </h1>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4 ms-auto">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <i class="fas fa-user-tie fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Total Karyawan</h5>
+                        <p class="card-text display-4">10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <i class="fas fa-chart-line fa-3x text-success mb-3"></i>
+                        <h5 class="card-title">Total Divisi</h5>
+                        <p class="card-text display-4">5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <i class="fas fa-medal fa-3x text-warning mb-3"></i>
+                        <h5 class="card-title">Total Jabatan</h5>
+                        <p class="card-text display-4">5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="karyawan">
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Data Karyawan</h2>
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Nomor</th>
+                        <th>Kode</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Alamat</th>
+                        <th>Jabatan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>1</td>
+                        <td>K001</td>
+                        <td>Andi Saputra</td>
+                        <td>andi.saputra@email.com</td>
+                        <td>Jl. Merdeka No. 1</td>
+                        <td>Manager</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>K002</td>
+                        <td>Budi Santoso</td>
+                        <td>budi.santoso@email.com</td>
+                        <td>Jl. Sudirman No. 2</td>
+                        <td>Staff</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>K003</td>
+                        <td>Citra Dewi</td>
+                        <td>citra.dewi@email.com</td>
+                        <td>Jl. Diponegoro No. 3</td>
+                        <td>Supervisor</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>K004</td>
+                        <td>Dedi Prasetyo</td>
+                        <td>dedi.prasetyo@email.com</td>
+                        <td>Jl. Gajah Mada No. 4</td>
+                        <td>Staff</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>K005</td>
+                        <td>Erika Susanti</td>
+                        <td>erika.susanti@email.com</td>
+                        <td>Jl. Kartini No. 5</td>
+                        <td>Manager</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>K006</td>
+                        <td>Fajar Sidiq</td>
+                        <td>fajar.sidiq@email.com</td>
+                        <td>Jl. Cempaka No. 6</td>
+                        <td>Staff</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>K007</td>
+                        <td>Gita Permata</td>
+                        <td>gita.permata@email.com</td>
+                        <td>Jl. Melati No. 7</td>
+                        <td>Supervisor</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>K008</td>
+                        <td>Hendra Gunawan</td>
+                        <td>hendra.gunawan@email.com</td>
+                        <td>Jl. Bunga No. 8</td>
+                        <td>Staff</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>K009</td>
+                        <td>Indra Lesmana</td>
+                        <td>indra.lesmana@email.com</td>
+                        <td>Jl. Kenanga No. 9</td>
+                        <td>Manager</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>K010</td>
+                        <td>Joko Sunaryo</td>
+                        <td>joko.sunaryo@email.com</td>
+                        <td>Jl. Mawar No. 10</td>
+                        <td>Staff</td>
+                        <td><button class="btn btn-primary btn-sm">Edit</button> <button class="btn btn-danger btn-sm">Hapus</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+        <!-- DATA KARYAWAN -->
+
+        <!-- JABATAN -->
+        <div id="jabatan">
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Tabel Data Jabatan</h2>
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Nama</th>
+                            <th>Jabatan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data Jabatan Contoh -->
+                        <tr>
+                            <td>Andi Saputra</td>
+                            <td>Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Budi Santoso</td>
+                            <td>Staff</td>
+                        </tr>
+                        <tr>
+                            <td>Citra Dewi</td>
+                            <td>Supervisor</td>
+                        </tr>
+                        <tr>
+                            <td>Dedi Prasetyo</td>
+                            <td>Staff</td>
+                        </tr>
+                        <tr>
+                            <td>Erika Susanti</td>
+                            <td>Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Fajar Sidiq</td>
+                            <td>Staff</td>
+                        </tr>
+                        <tr>
+                            <td>Gita Permata</td>
+                            <td>Supervisor</td>
+                        </tr>
+                        <tr>
+                            <td>Hendra Gunawan</td>
+                            <td>Staff</td>
+                        </tr>
+                        <tr>
+                            <td>Indra Lesmana</td>
+                            <td>Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Joko Sunaryo</td>
+                            <td>Staff</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- JABATAN -->
+
+        <!-- DIVISI -->
+            <div id="divisi">
+                <div class="container mt-5">
+                    <h2 class="text-center mb-4">Tabel Data Divisi</h2>
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Nama</th>
+                                <th>Jabatan</th>
+                                <th>Divisi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data Divisi Contoh -->
+                            <tr>
+                                <td>Andi Saputra</td>
+                                <td>Manager</td>
+                                <td>Pemasaran</td>
+                            </tr>
+                            <tr>
+                                <td>Budi Santoso</td>
+                                <td>Staff</td>
+                                <td>Keuangan</td>
+                            </tr>
+                            <tr>
+                                <td>Citra Dewi</td>
+                                <td>Supervisor</td>
+                                <td>Produksi</td>
+                            </tr>
+                            <tr>
+                                <td>Dedi Prasetyo</td>
+                                <td>Staff</td>
+                                <td>SDM</td>
+                            </tr>
+                            <tr>
+                                <td>Erika Susanti</td>
+                                <td>Manager</td>
+                                <td>Keuangan</td>
+                            </tr>
+                            <tr>
+                                <td>Fajar Sidiq</td>
+                                <td>Staff</td>
+                                <td>Produksi</td>
+                            </tr>
+                            <tr>
+                                <td>Gita Permata</td>
+                                <td>Supervisor</td>
+                                <td>Pemasaran</td>
+                            </tr>
+                            <tr>
+                                <td>Hendra Gunawan</td>
+                                <td>Staff</td>
+                                <td>SDM</td>
+                            </tr>
+                            <tr>
+                                <td>Indra Lesmana</td>
+                                <td>Manager</td>
+                                <td>Produksi</td>
+                            </tr>
+                            <tr>
+                                <td>Joko Widodo</td>
+                                <td>Staff</td>
+                                <td>Keuangan</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <!-- DIVISI -->
+        <!-- Footer -->
+        <footer class="bg-success text-white text-center py-3 mt-5">
+            <p>&copy; 2024 Muhamad Ibrahim Fajri - UTS PEMROGRAMAN WEB 1S</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
